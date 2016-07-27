@@ -1,17 +1,60 @@
+.header{
+	margin-left:40%;
+}
+.contact-text{
+	color:black;
+	font-size:medium;
+}
+.left-small-part{
+	width:30%;
+}
+.right-big-part{
+	width:70%;
+	float:right;
+}
+.big{
+	font-size:xx-large;
+	margin-bottom:0px;
+}
+.super-big{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size:xx-large;
+	font-weight:bold;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.small{
+	margin-top:0px;
+	margin-left:22px;
+}
+.skills-progress{
+	 background-image: url(content/blue_circle.png);
+	 background-repeat: repeat;	
+}
+
+.profile-text{
+	width:85%;
+	color:black;
+	margin-left:50px;
+}
 .wrapper{
-	width:100%
+	width:100%;
+	height:80px;
+}
+.wrapper2{
+	width:40%
 }
 .name{
-	margin-left:30px;
+	margin-left:35px;
 }
 .out-circle {
 	left:50px;
 	position:relative;
-	width:100px;
-	height:100px;
+	width:130px;
+	height:130px;
 	border: 1px solid #0094D0;
 	background:white;
-	border-radius:50px;
+	border-radius:65px;
 	border-color:blue;
 	margin-top:20px;
 }
@@ -19,10 +62,16 @@
 	position:absolute;
 	top:5px;
 	left:5px;
-	width:90px;
-	height:90px;
+	width:120px;
+	height:120px;
 	background:blue;
-	border-radius:45px
+	border-radius:60px
+}
+.small-blue-circle {
+	width:8px;
+	height:8px;
+	background:blue;
+	border-radius:4px
 }
 .left-panel{
 	/* float:left: */
@@ -40,7 +89,8 @@ footer{
 	text-align:center;
 	font-family:"Arial Black", Gadget, sans-serif;
 	font-size:small;
-	color:grey
+	color:grey;
+	margin-top:100px
 }
 .profile-outside-circle {
 	left:50px;
@@ -101,4 +151,6 @@ margin-left:50%;
 	   color:black;
 	   
    }
+   
+
 	
