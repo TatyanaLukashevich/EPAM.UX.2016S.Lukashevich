@@ -1,0 +1,46 @@
+body{
+	 background-image: url(fon.jpg);
+	
+}
+.center-panel{
+	width: 60%;
+	margin-left:200px;
+	background-color: #FFFFE0;
+	border-style: solid;
+	border-radius: 20px;
+	border-color: gold;
+	font-family: "Times New Roman";
+	 background-image:url(kek.png);
+	 background-repeat: no-repeat;
+	 background-position:right bottom;
+
+}
+h1{
+	width: 50%;
+}
+h4{
+	margin-left:20px;
+	width: 60%;
+	text-align:center;
+	font-weight: lighter;
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 20px; /* Отступы вокруг картинки */
+   }
+.first{
+	font-style:italic
+}
+h4:first-letter {
+    color: red; /* Красный цвет первой буквы */
+   }
+
+ .avtor{
+	 font-size: large;
+	  color: gray;
+	  font-weight: bold;
+ }
+ a{
+	 font-size: large;
+	 color:brown
+ }

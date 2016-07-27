@@ -1,0 +1,20 @@
+.register-form{
+	width:400px;
+	background-color:LightSteelBlue
+}
+.field{
+	margin-bottom:25px
+}
+
+.register-input {
+	padding-bottom: 12px;
+	margin-bottom:10px;
+	border-bottom: 1px dashed blue;
+}
+label {
+	width: 100px;
+	display: inline-block;
+}
+.submit-align{
+	margin-left:104px
+}
