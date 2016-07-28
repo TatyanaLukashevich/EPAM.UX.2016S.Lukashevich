@@ -1,6 +1,83 @@
 .header{
-	margin-left:40%;
+	margin-left:100px;
 }
+
+img{
+	margin-left:0px;
+}
+
+.li-left{
+	margin-top:50px;
+}
+.progress{
+	display:inline;
+	margin-left:45px;
+}
+
+.text{
+	margin-bottom:0px;
+	margin-top:21.1px;
+	height: 24px;
+}
+
+.circle-progress-full{
+	float:left;
+	 background-image: url(content/steelblue.png);
+	  background-repeat: repeat-x;
+	  background-repeat: space;
+	  width:80%
+}
+
+.circle-progress-not{
+	float:left;
+	 background-image: url(content/steelblue.png);
+	  background-repeat: repeat-x;
+	  background-repeat: space;
+	  width:60%
+}
+.circle-progress-not-g{
+	 background-image: url(content/gray.png);
+	  background-repeat: repeat-x;
+	  background-repeat: space;
+	  width:40%
+}
+
+.right{
+	float:right;
+	height:50px;
+	width:65%;
+}
+
+.right{
+	height:50px;
+	width:35%;
+}
+
+.contact-info{
+	margin-top:40px;
+}
+hr {
+	margin-top:25px;
+	float:left;
+    border: none; /* Убираем границу */
+    background-color: steelblue; /* Цвет линии */
+    color: steelblue; /* Цвет линии для IE6-7 */
+    height: 5px; /* Толщина линии */
+	width:100px;
+   }
+body{
+/* 	margin-left:20%;
+	margin-left:20%; */
+/* 	 background-image: url(back.jpg);
+	 background-repeat: no-repeat;	 */
+	width: 60%;
+}
+
+/* .p{
+	margin-top:23px;
+	height:20px;
+} */
+
 li:before{
 	color:black;
 	size:large;
@@ -8,12 +85,15 @@ li:before{
 
 .black-point {
     list-style-image: url(content/black_point.png);
+	margin-top:40px;
    }
 
 #black{
 	color:black;
 }
 .contact-text{
+	 height:30px;
+	font-family: "Myriad Pro", Helvitica, Tahoma; 
 	color:black;
 	font-size:medium;
 	margin-left:15px;
@@ -32,10 +112,10 @@ h6{
 	font-weight:bold;
 }
 .left-small-part{
-	width:35%;
+	width:25%;
 }
 .right-big-part{
-	width:65%;
+	width:75%;
 	float:right;
 	
 }
@@ -50,17 +130,20 @@ h6{
 }
 
 .big{
-	font-size:xx-large;
+	font-family: "Myriad Pro", Helvitica, Tahoma; 
+	font-size:32.593pt;
 	margin-bottom:0px;
+	margin-top:21px;
 }
 .super-big{
-	font-family: Verdana, Arial, Helvetica, sans-serif; 
-	font-size:xx-large;
-	font-weight:bold;
+	font-family: "Myriad Pro", Helvitica, Tahoma; 
+	font-size:32.593pt;
 	margin-top:0px;
 	margin-bottom:0px;
 }
 .small{
+	font-family: "Myriad Pro", Helvitica, Tahoma; 
+	font-size:13.189pt;
 	margin-top:0px;
 	margin-left:22px;
 }
@@ -70,21 +153,33 @@ h6{
 }
 
 .profile-text{
-	width:85%;
+	font-family: "Myriad Pro", Helvitica, Tahoma; 
+	font-size: 9pt;
+	width:80%;
 	color:black;
-	margin-left:50px;
+	margin-top: 35px;
+	margin-left:40px;
 }
 .wrapper{
 	width:100%;
 	height:90px;
 }
 .wrapper2{
-	width:40%
+	width:100%;
+	padding-left:0px;
+}
+
+.wrapper3{
+	width:100%;
+	height:90px;
+	margin-top:40px;
 }
 .name{
-	margin-left:35px;
+	margin-left:0px;
 }
-.out-circle {
+
+
+/* .out-circle {
 	left:50px;
 	position:relative;
 	width:130px;
@@ -92,7 +187,7 @@ h6{
 	border: 1px solid #0094D0;
 	background:white;
 	border-radius:65px;
-	border-color:blue;
+	border-color:SteelBlue;
 	margin-top:20px;
 }
 .circle {
@@ -101,15 +196,45 @@ h6{
 	left:5px;
 	width:120px;
 	height:120px;
-	background:blue;
+	background:SteelBlue;
 	border-radius:60px
+} */
+
+.out-circle {
+	left:50px;
+	width:182px;
+	height:182px;
+	border: 1px solid #0094D0;
+	background:white;
+	border-radius:91px;
+	border-color:SteelBlue;
+	margin-top:72px;
+	margin-left:22px;
 }
-.small-black-circle {
-	width:8px;
-	height:8px;
-	background:black;
-	border-radius:4px
+.circle {
+	width:160px;
+	height:160px;
+	background:SteelBlue;
+	border-radius:80px;
+	margin-left: 10px;
+	margin-top: 10px;
 }
+
+
+.small-blue-circle {
+	width:17px;
+	height:17px;
+	background:steelblue;
+	border-radius:8.5px
+}
+
+.small-gray-circle {
+	width:17px;
+	height:17px;
+	background:LightGray;
+	border-radius:8.5px
+}
+
 .left-panel{
 	/* float:left: */
 	width: 50%;
@@ -124,29 +249,29 @@ h6{
 }
 footer{
 	text-align:center;
-	font-family:"Arial Black", Gadget, sans-serif;
-	font-size:small;
+	font-family:"Myriad Pro Light SemiExtended ";
+	font-size:medium;
 	color:grey;
-	margin-top:100px
 }
 .profile-outside-circle {
-	left:50px;
+	top:25px;
+	left:40px;
 	position:relative;
-	width:50px;
-	height:50px;
+	width:58px;
+	height:58px;
 	border: 1px solid #0094D0;
 	background:white;
-	border-radius:50px;
-	border-color:blue
+	border-radius:58px;
+	border-color:SteelBlue
 }
 .profile-circle {
 	position:absolute;
-	top:5px;
-	left:5px;
-	width:40px;
-	height:40px;
-	background:blue;
-	border-radius:20px
+	top:4px;
+	left:4px;
+	width:50px;
+	height:50px;
+	background:SteelBlue;
+	border-radius:25px
 }
 
 .picture-inside{
@@ -155,12 +280,14 @@ footer{
 	color:white;
 }
 .header-information{
-	color:blue;
+	color:SteelBlue;
 	margin-top: 20px;
 }
 
 .to-left{
+	font-family: "Myriad Pro", Helvitica, Tahoma; 
 	margin-left:70px;
+	margin-top:15px;
 }
 .to-left2{
 	margin-left:15px;
@@ -169,9 +296,13 @@ footer{
     border-left: 2px solid #ccc; /* Параметры линии */ 
     margin-left: 20px; /* Отступ слева */
     padding-left: 10px; 
-	color: blue;
+	color: SteelBlue;
 }
  .li {
+	 height:27px;
+	font-family: "Myriad Pro", Helvitica, Tahoma; 
+	font-weight: bold;
+	
     list-style-type: none; /* Убираем маркеры */
    }
  
@@ -186,11 +317,14 @@ margin-left:50%;
    }
    
    .skills{
-	   margin-left:100px;
-	   margin-top: 20px;
+	   margin-top: 40px;
 	   color:black;
 	   
    }
+   
+ .p{
+	 text-align:center;
+ }
    
 
 	

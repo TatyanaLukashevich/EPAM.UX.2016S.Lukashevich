@@ -1,0 +1,31 @@
+.main{
+	width:70%;
+	border: 1px solid;
+/* 	display: table */
+}
+
+.col-sm-white{
+	float:left;
+	width:40%;
+	background-color: white;
+}
+
+.col-sm-gold{
+	float:left;
+	width:40%;
+	background-color: gold;
+}
+
+.col-big-white{
+	width:60%;
+	background-color: white;
+}
+
+.col-big-gold{
+	width:60%;
+	background-color: gold;
+}
+
+.title{
+	font-weight: bold;
+	}
