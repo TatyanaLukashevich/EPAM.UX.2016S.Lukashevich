@@ -1,17 +1,54 @@
 .header{
 	margin-left:40%;
 }
+li:before{
+	color:black;
+	size:large;
+}
+
+.black-point {
+    list-style-image: url(content/black_point.png);
+   }
+
+#black{
+	color:black;
+}
 .contact-text{
 	color:black;
 	font-size:medium;
+	margin-left:15px;
+}
+.education-text{
+	color:black;
+	font-size:medium;
+	margin-left:15px;
+}
+h6{
+	margin-top:0px;
+}
+.company-name-text{
+	color:black;
+	font-size:large;
+	font-weight:bold;
 }
 .left-small-part{
-	width:30%;
+	width:35%;
 }
 .right-big-part{
-	width:70%;
+	width:65%;
 	float:right;
+	
 }
+
+.left-small-part2{
+	width:23%;
+}
+.right-big-part2{
+	width:77%;
+	float:right;
+	
+}
+
 .big{
 	font-size:xx-large;
 	margin-bottom:0px;
@@ -39,7 +76,7 @@
 }
 .wrapper{
 	width:100%;
-	height:80px;
+	height:90px;
 }
 .wrapper2{
 	width:40%
@@ -67,10 +104,10 @@
 	background:blue;
 	border-radius:60px
 }
-.small-blue-circle {
+.small-black-circle {
 	width:8px;
 	height:8px;
-	background:blue;
+	background:black;
 	border-radius:4px
 }
 .left-panel{
@@ -125,17 +162,20 @@ footer{
 .to-left{
 	margin-left:70px;
 }
+.to-left2{
+	margin-left:15px;
+}
 .line { 
     border-left: 2px solid #ccc; /* Параметры линии */ 
     margin-left: 20px; /* Отступ слева */
     padding-left: 10px; 
 	color: blue;
 }
- li {
+ .li {
     list-style-type: none; /* Убираем маркеры */
    }
  
- ul {
+ .ul {
 	 
     margin-left: 50px; /* Отступ слева в браузере IE и Opera */
     padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
