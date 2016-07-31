@@ -1,204 +1,28 @@
-.header{
-	margin-left:100px;
-}
-
-img{
-	margin-left:0px;
-}
-
-.li-left{
-	margin-top:50px;
-}
-.progress{
-	display:inline;
-	margin-left:45px;
-}
-
-.text{
-	margin-bottom:0px;
-	margin-top:21.1px;
-	height: 24px;
-}
-
-.circle-progress-full{
-	float:left;
-	 background-image: url(content/steelblue.png);
-	  background-repeat: repeat-x;
-	  background-repeat: space;
-	  width:80%
-}
-
-.circle-progress-not{
-	float:left;
-	 background-image: url(content/steelblue.png);
-	  background-repeat: repeat-x;
-	  background-repeat: space;
-	  width:60%
-}
-.circle-progress-not-g{
-	 background-image: url(content/gray.png);
-	  background-repeat: repeat-x;
-	  background-repeat: space;
-	  width:40%
-}
-
-.right{
-	float:right;
-	height:50px;
-	width:65%;
-}
-
-.right{
-	height:50px;
-	width:35%;
-}
-
-.contact-info{
-	margin-top:40px;
-}
-hr {
-	margin-top:25px;
-	float:left;
-    border: none; /* Убираем границу */
-    background-color: steelblue; /* Цвет линии */
-    color: steelblue; /* Цвет линии для IE6-7 */
-    height: 5px; /* Толщина линии */
-	width:100px;
+ @font-face {
+    font-family:MyriadPro-Bold; /* Гарнитура шрифта */
+    src: url(fonts/MyriadPro-Bold.ttf); /* Путь к файлу со шрифтом */
    }
+
 body{
-/* 	margin-left:20%;
-	margin-left:20%; */
-/* 	 background-image: url(back.jpg);
-	 background-repeat: no-repeat;	 */
-	width: 60%;
+	width:100%;
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;	
 }
 
-/* .p{
-	margin-top:23px;
-	height:20px;
-} */
-
-li:before{
-	color:black;
-	size:large;
-}
-
-.black-point {
-    list-style-image: url(content/black_point.png);
-	margin-top:40px;
-   }
-
-#black{
-	color:black;
-}
-.contact-text{
-	 height:30px;
-	font-family: "Myriad Pro", Helvitica, Tahoma; 
-	color:black;
-	font-size:medium;
-	margin-left:15px;
-}
-.education-text{
-	color:black;
-	font-size:medium;
-	margin-left:15px;
-}
-h6{
-	margin-top:0px;
-}
-.company-name-text{
-	color:black;
-	font-size:large;
-	font-weight:bold;
-}
-.left-small-part{
-	width:25%;
-}
-.right-big-part{
-	width:75%;
-	float:right;
-	
-}
-
-.left-small-part2{
-	width:23%;
-}
-.right-big-part2{
-	width:77%;
-	float:right;
-	
-}
-
-.big{
-	font-family: "Myriad Pro", Helvitica, Tahoma; 
-	font-size:32.593pt;
-	margin-bottom:0px;
-	margin-top:21px;
-}
-.super-big{
-	font-family: "Myriad Pro", Helvitica, Tahoma; 
-	font-size:32.593pt;
-	margin-top:0px;
-	margin-bottom:0px;
-}
-.small{
-	font-family: "Myriad Pro", Helvitica, Tahoma; 
-	font-size:13.189pt;
-	margin-top:0px;
-	margin-left:22px;
-}
-.skills-progress{
-	 background-image: url(content/blue_circle.png);
-	 background-repeat: repeat;	
-}
-
-.profile-text{
-	font-family: "Myriad Pro", Helvitica, Tahoma; 
-	font-size: 9pt;
-	width:80%;
-	color:black;
-	margin-top: 35px;
-	margin-left:40px;
-}
 .wrapper{
-	width:100%;
-	height:90px;
-}
-.wrapper2{
-	width:100%;
-	padding-left:0px;
+/* 	display:inline; */
 }
 
-.wrapper3{
-	width:100%;
-	height:90px;
-	margin-top:40px;
-}
-.name{
-	margin-left:0px;
+.left-panel{
+	float:left;
+	width:29%;	
 }
 
-
-/* .out-circle {
-	left:50px;
-	position:relative;
-	width:130px;
-	height:130px;
-	border: 1px solid #0094D0;
-	background:white;
-	border-radius:65px;
-	border-color:SteelBlue;
-	margin-top:20px;
+.right-panel{
+	float: left;
+	width:42%;
+	height:1352.590px;
 }
-.circle {
-	position:absolute;
-	top:5px;
-	left:5px;
-	width:120px;
-	height:120px;
-	background:SteelBlue;
-	border-radius:60px
-} */
 
 .out-circle {
 	left:50px;
@@ -208,8 +32,8 @@ h6{
 	background:white;
 	border-radius:91px;
 	border-color:SteelBlue;
-	margin-top:72px;
-	margin-left:22px;
+	margin-top:64px;
+	margin-left:23px;
 }
 .circle {
 	width:160px;
@@ -220,39 +44,6 @@ h6{
 	margin-top: 10px;
 }
 
-
-.small-blue-circle {
-	width:17px;
-	height:17px;
-	background:steelblue;
-	border-radius:8.5px
-}
-
-.small-gray-circle {
-	width:17px;
-	height:17px;
-	background:LightGray;
-	border-radius:8.5px
-}
-
-.left-panel{
-	/* float:left: */
-	width: 50%;
-	/* margin-left:40px;
-	left:40px */
-}
-.right-panel{
-	width:50%;
-	float:right;
-	/* margin-left:50%;
-   margin: 0px 0px 0px 50px; */
-}
-footer{
-	text-align:center;
-	font-family:"Myriad Pro Light SemiExtended ";
-	font-size:medium;
-	color:grey;
-}
 .profile-outside-circle {
 	top:25px;
 	left:40px;
@@ -274,57 +65,332 @@ footer{
 	border-radius:25px
 }
 
-.picture-inside{
-	margin-left:10px;
-	margin-top:10px;
-	color:white;
+.header{
+	margin-left:100px;
 }
+
+.name{
+		line-height:45px;
+}
+
 .header-information{
-	color:SteelBlue;
-	margin-top: 20px;
+	margin-top:10px;
+/* 	display: inline; */
 }
 
-.to-left{
-	font-family: "Myriad Pro", Helvitica, Tahoma; 
-	margin-left:70px;
-	margin-top:15px;
+.title{
+	color: steelblue;
+	font-family: "MyriadPro-Bold", Arial;
+	font-size:24pt;
+	margin:36px 0px 0px 28px;
 }
-.to-left2{
-	margin-left:15px;
+
+.profile-text{
+	width: 85%;
+	font-family: "Myriad Pro", Arial;
+	font-weight: normal;
+	margin: 125px 0px  0px 41px;
+	font-size:9.2pt;
 }
-.line { 
-    border-left: 2px solid #ccc; /* Параметры линии */ 
-    margin-left: 20px; /* Отступ слева */
-    padding-left: 10px; 
-	color: SteelBlue;
+
+.name h1{
+	font-weight: lighter;
+	margin: 25px 0px 0px 2px;
 }
- .li {
-	 height:27px;
-	font-family: "Myriad Pro", Helvitica, Tahoma; 
-	font-weight: bold;
+
+.name h2{
+font-size:38pt;
+font-family: "MyriadPro-Bold", Arial;
+font-weight: 700;
+margin-top: -2px;
+margin-bottom: 0px;
+}
+
+.name h4{
+	line-height:34px;
+	font-size:15pt;
+	font-family: "MyriadPro-Bold", Arial;
+	margin-top:0px;
+	margin-left: 30px;
+}
+
+.profile-circle img{
+	margin:10px 0px 0px 10px;
+}
+
+.col-sm-2, .col-sm-5, .col-sm-4{
+	 float: left;
+}
+
+.col-sm-2 {
+    width: 17.66666667%;
+  }
+.col-sm-5 {
+    width: 145px;
+	height:95px;
+	margin-left:12px;
+  }
+  
+  
+  .col-sm {
+    width: 150px;
+	height:100px;
+	margin-left:12px;
+  }
+  
+    .col-smm {
+    width: 150px;
+	height:100px;
+	margin:10px 0px 0px 85px;
+  }
+  
+.contact-fields .col-sm-5{
+	width: 37%;
+}
+
+h1{
+	font-size:32pt;
+}
+
+h1, h2, h4, h5,h6{
+	font-family:"Myriad Pro", Arial;
+}
+.hr{
+/* 	margin-left: 20px; */
+	margin-top: 55px;
+	line-height:5px;
+}
+
+.hr2{
+	margin-left: 18px;
+	margin-top: 55px;
+	line-height:5px;
+}
+.contact-fields{
+	color: steelblue;
+	margin-left:29px;
+	margin-top:110px;
+}
+
+.contact-info{
+	float:left;
+
+}
+.contact-fields h5{
+	font-size: 12pt;
+	color:black;
+	font-weight: normal;
+	margin: 0px 0px  0px 117px;
+	padding-top:5px;
+	height: 18px;
+}
+.contact-fields h4{
+	margin:4.5px 0px 0px 12px;
+	line-height:38px;
+}
+
+.contact-fields h5{
+		margin:20px 0px 0px 30px;
+		line-height:37px;
+}
+
+.skills{
+	float:left;
+	margin: 0px 0px 0px 40px;
+}
+
+.skills .title{
+	margin-left:8px;
+	margin-top:28px;
+}
+
+.skills .hr2{
+		margin: 48px 0px 45px 3px;
+}
+.skills .col-sm{
+	float:left;
+	width:140px;
+	height:105px;
+	margin-left:5px;
+}
+.skills .col-sm-5{
+	width:105px;
+	margin-left:5px;
+}
+
+.criteria{
+	top:100px;
+}
+.criteria h4{
+/* 	padding-top:30px; */
+	font-family:"Myriad Pro", Arial;
+	margin: 0px 0px 0px 19px;
+	text-align:center;
+	font-size:15pt;
+	font-weight: normal;	
+	line-height:14px;
+}
+
+.skills .profile-outside-circle{
+	left:0px;
+	top:20px;
+}
+.left-panel ul{
+	margin: 0px 0px  20px 34px;
+	padding-left:0px;
+	height:27px;
+	line-height:45px;
+}
+.left-panel ul li {
+display:inline;
+}
+
+.right-panel .col-sm-2{
+	margin: 15px 0px 0px 5px;
+	width:60px;
+	height:60px;
+}
+
+.right-panel .title{
+		margin: 50px 0px 0px 44px;
+}
+
+.right-panel .hr{
+	margin: 70px 0px 0px 70px;
+}
+
+.black-point {
+    list-style-image: url(content/black_point2.png);
+   }
+   
+.education-text{
+	width:40%;
+}
+
+.right-panel ul li{
+	margin-top:135px;
+	margin-left: 39px;
+}
+
+.list{
+	margin-top:0px;
 	
-    list-style-type: none; /* Убираем маркеры */
-   }
- 
- .ul {
-	 
-    margin-left: 50px; /* Отступ слева в браузере IE и Opera */
-    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
-   }
+}
+ .list h4{
+	color:steelblue;
+	font-size:15pt;
+	margin-left:9px;
+} 
 
- .column {
-margin-left:50%;
-   }
-   
-   .skills{
-	   margin-top: 40px;
-	   color:black;
-	   
-   }
-   
- .p{
-	 text-align:center;
- }
-   
+.list .col-sm-2{
+	width:20px;
+	height:20px;
+	padding-left:47px;
+	margin-top:5px;
+}
 
-	
+.list .col-sm-5{
+	width:170px;
+	margin-left:7px;
+	height:0px;
+}
+.list .col-sm-5 h4{
+		margin-top:10px;
+		margin-bottom:0px;
+		
+}
+ .col-sm-4{
+	width:320px;
+	height: 20px;
+	padding-left:173px;
+	margin-bottom:0px;
+}
+
+.col-sm-4 h4{
+	color:black;
+	font-weight:lighter;
+	margin-top:10px;
+}
+
+.info{
+	margin-left:87px;
+	margin-top:165px;
+	padding-top:7px;
+}
+
+.info h4{
+	font-weight:normal;
+	font-size:15pt;
+	margin-bottom:13px;
+}
+
+.info h6{
+	margin-top:0px;
+	font-weight:normal;
+	font-size:9.3pt;
+	margin-bottom:0px;
+}
+
+.right-panel h4{
+	line-height:10px;
+}
+#first{
+	margin-top: -35px;
+}
+#second, #third{
+	margin-top:-157px;
+}
+#second .info h4{
+	margin-top:30px;
+}
+
+#third{
+	margin-top:-160px;
+}
+
+#third .info h4{
+	margin-top:31px;
+}
+#third .info h6{
+	margin-top:-2px;
+}
+
+#fourth{
+	margin-top:-160px;
+}
+
+#fourth .info h4{
+	margin-top:31px;
+}
+#fourth .info h6{
+	margin-top:-2px;
+}
+
+.experience .header-information {
+	margin-top:0px;
+}
+#firstE .info{
+	margin-top: 133px;
+}
+ #firstE h4{
+	color:black;
+}
+#firstE .info h4{
+	margin-top:28px;
+}
+#secondE{
+	margin-top: -160px;
+}
+#secondE .info h4{
+	margin-top: 28px;
+}
+#secondE h4{
+	color:black;
+}
+
+#thirdE{
+		margin-top: -155px;
+}
+#thirdE h4{
+	color:black;
+}
