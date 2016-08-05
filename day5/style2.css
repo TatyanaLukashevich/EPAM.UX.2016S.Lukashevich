@@ -1,0 +1,49 @@
+table{
+	width: 600px;
+	border-collapse: collapse;
+	border-radius:10px;
+	box-shadow:  0px 0px 30px rgba(0,0,0,0.5);
+}
+th{
+	background-color: black;
+	text-align: left;
+	color:white;	
+	border-right: 1px solid gray;
+}
+
+td:first-child:first-letter{
+	color:red;
+	font-style:italic;
+}
+
+tr:hover{
+
+background:linear-gradient(to left, gold, white);
+background-attachment:fixed;
+
+}
+
+td{
+		border-right: 1px solid black
+}
+
+th:last-child{
+	border-radius:0px 10px 0px 0px;
+	border-right: none;
+}
+th:first-child{
+	border-radius:10px 0px 0px 0px;
+}
+td:last-child{
+		border-right: none;
+}
+
+td:first-child:after{
+	content:"";
+}
+
+td:after{
+	content:"(mln)";
+}
+
+

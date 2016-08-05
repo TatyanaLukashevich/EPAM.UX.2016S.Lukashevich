@@ -3,10 +3,13 @@
     src: url(fonts/MyriadPro-Bold.ttf); /* Путь к файлу со шрифтом */
    }
 
+   @import "compass/css3";
+   
 body{
 	width:100%;
-	background-image: url(back.jpg);
-	background-repeat: no-repeat;	
+	margin-left: 158px;
+	background-image: url(back2.jpg);
+	 background-repeat: no-repeat;	
 }
 
 .wrapper{
@@ -45,7 +48,7 @@ body{
 }
 
 .profile-outside-circle {
-	top:25px;
+	top:28px;
 	left:40px;
 	position:relative;
 	width:58px;
@@ -129,6 +132,8 @@ margin-bottom: 0px;
     width: 145px;
 	height:95px;
 	margin-left:12px;
+	margin-top:0px;
+
   }
   
   
@@ -146,6 +151,7 @@ margin-bottom: 0px;
   
 .contact-fields .col-sm-5{
 	width: 37%;
+	
 }
 
 h1{
@@ -169,9 +175,13 @@ h1, h2, h4, h5,h6{
 .contact-fields{
 	color: steelblue;
 	margin-left:29px;
-	margin-top:110px;
+	margin-top:106px;
 }
 
+
+.contact-fields col-sm-2{
+	margin-top:-2px;
+}
 .contact-info{
 	float:left;
 
@@ -186,7 +196,7 @@ h1, h2, h4, h5,h6{
 }
 .contact-fields h4{
 	margin:4.5px 0px 0px 12px;
-	line-height:38px;
+	line-height:39px;
 }
 
 .contact-fields h5{
@@ -239,7 +249,7 @@ h1, h2, h4, h5,h6{
 	margin: 0px 0px  20px 34px;
 	padding-left:0px;
 	height:27px;
-	line-height:45px;
+	line-height:44px;
 }
 .left-panel ul li {
 display:inline;
@@ -322,6 +332,7 @@ display:inline;
 	font-weight:normal;
 	font-size:15pt;
 	margin-bottom:13px;
+	width:200px;
 }
 
 .info h6{
@@ -334,63 +345,153 @@ display:inline;
 .right-panel h4{
 	line-height:10px;
 }
-#first{
+.first{
 	margin-top: -35px;
 }
-#second, #third{
+.second, .third{
 	margin-top:-157px;
 }
-#second .info h4{
+.second .info h4{
 	margin-top:30px;
 }
 
-#third{
+.third{
 	margin-top:-160px;
 }
 
-#third .info h4{
+.third .info h4{
 	margin-top:31px;
 }
-#third .info h6{
+.third .info h6{
 	margin-top:-2px;
 }
 
-#fourth{
+.fourth{
 	margin-top:-160px;
 }
 
-#fourth .info h4{
+.fourth .info h4{
 	margin-top:31px;
 }
-#fourth .info h6{
+.fourth .info h6{
 	margin-top:-2px;
 }
 
 .experience .header-information {
 	margin-top:0px;
 }
-#firstE .info{
+.firstE .info{
 	margin-top: 133px;
 }
- #firstE h4{
+ .firstE h4{
 	color:black;
 }
-#firstE .info h4{
+.firstE .info h4{
 	margin-top:28px;
 }
-#secondE{
+.secondE{
 	margin-top: -160px;
 }
-#secondE .info h4{
+.secondE .info h4{
 	margin-top: 28px;
 }
-#secondE h4{
+.secondE h4{
 	color:black;
 }
 
-#thirdE{
+.thirdE{
 		margin-top: -155px;
 }
-#thirdE h4{
+.thirdE h4{
 	color:black;
+}
+
+.software{
+	margin-top: -10px
+}
+
+.software .header-information{
+	height:100px;
+}
+
+.progress{
+	margin-left: 40px;
+	margin-top:19px;
+	width: 600px;
+}
+
+.progress .col-sm-5{
+	width: 265px;
+}
+
+.progress h4{
+/* 	padding-top:30px; */
+	float: left;
+	font-family:"Myriad Pro", Arial;
+	margin: 2px 100px 7.5px 0px;
+	text-align:center;
+	font-size:16pt;
+	font-weight: normal;	
+	line-height:26px;
+}
+
+progress::-webkit-progress-bar { background-color: lightgray; }
+progress::-webkit-progress-value { background: steelblue; }
+
+progress{
+	 -webkit-appearance: none; 
+    appearance: none;
+	width: 220px;
+	height:18px;
+	border: none;
+}
+
+li {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 10px;
+  background: steelblue;
+  margin: 0 0;
+  margin-right:4.3px;
+  display: inline-block;
+  color:  steelblue;
+  position: relative;
+  padding-left:8px;
+  font-size: 9pt;
+}
+
+li:first-child::before {
+  display: none;
+}
+
+.active {
+  background:  steelblue;
+   padding-left:2px;
+}
+
+.active ~ li {
+  background: lightgray;
+  color: lightgray;
+  padding-left:2px;
+}
+
+.criteria ul{
+	margin-bottom:24px;
+	margin-left:37px;
+	margin-top:-5px;
+}
+
+.footer{
+	clear: both;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+	top:1350px;
+	left:470px;
+	background-image: url(content/logo.png);
+	background-repeat:no-repeat;
 }
