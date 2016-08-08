@@ -3,9 +3,7 @@
 	  width:1000px;
 	  margin: 0 auto;
 	  overflow:hidden;
-/* 	  background-color:white;	 */  
-/* 	 background-image: url(back.jpg);
-	 background-repeat: no-repeat;	 */
+	  background-color:white;	  
   }
   
   .content{
@@ -25,7 +23,7 @@
     .header{
 	float: left;
 	height:450px;
-	margin: 0px 0px 0px 60px;
+	margin: 0px 0px 0px 105px;
 }
 
 .left .section{
@@ -34,6 +32,7 @@
 	width:400px;
 	overflow:hidden;
 /* 	min-height:250px; */
+	margin-left:50px;
 	margin-bottom:40px;
 }
 
@@ -215,6 +214,9 @@ margin-bottom: 0px;
 	border:none;
 }
 
+.criteria{
+	margin-top:20px;
+}
 
 .criteria li {
   width: 14px;
@@ -278,7 +280,7 @@ margin-bottom: 0px;
   
   ul li{
     list-style-image: url(content/black_point2.png);
-	margin-bottom:15px;
+	margin:20px 0px 0px 20px;;
 /* 	line-height:20px; */
 /* 	margin-top:43px; */
    }
@@ -314,7 +316,7 @@ margin-bottom: 0px;
 	float:left;
 }
 .progress{
-	margin:22px 0px 0px 50px;
+	margin:28px 0px 0px 50px;
 	width: 550px;
 	height:196px;
 }
@@ -400,6 +402,5 @@ progress{
    position: relative;
    width: 100%;
    min-height: 50px;
-   top:calc(100%-50px);
   display:inline-block;
 }
