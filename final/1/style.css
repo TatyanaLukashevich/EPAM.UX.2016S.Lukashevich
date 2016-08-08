@@ -31,7 +31,6 @@
 	position:relative;
 	width:400px;
 	overflow:hidden;
-/* 	min-height:250px; */
 	margin-left:50px;
 	margin-bottom:40px;
 }
@@ -247,7 +246,6 @@ margin-bottom: 0px;
 }
 
 .criteria h4{
-/* 	padding-top:30px; */
 	font-family:"Myriad Pro", Arial;
 	margin: 0px 0px 0px 19px;
 	text-align:center;
@@ -264,7 +262,6 @@ margin-bottom: 0px;
 	float:left;
 	width:600px;
 	margin: 50px 0px 0px 0px;
-/* 	overflow:hidden; */
 	position:relative;
   }
   
@@ -281,8 +278,6 @@ margin-bottom: 0px;
   ul li{
     list-style-image: url(content/black_point2.png);
 	margin:20px 0px 0px 20px;;
-/* 	line-height:20px; */
-/* 	margin-top:43px; */
    }
    
 .list{
@@ -294,8 +289,6 @@ margin-bottom: 0px;
 	color:steelblue;
 	font-size:15pt;
 	margin:0px 0px 0px 7px;
-/* 	height:30px;
-	overflow:hidden	 */
 } 
 
 .title2{
@@ -326,7 +319,6 @@ margin-bottom: 0px;
 }
 
 .progress h4{
-/* 	padding-top:30px; */
 	float: left;
 	font-family:"Myriad Pro", Arial;
 	margin: 2px 100px 7.5px 0px;
@@ -361,12 +353,6 @@ progress{
 	margin: 12.5px 0 16px 0;
 }
 
-
-/* .progress-ph{
-	height:60%;
-	background:steelblue;
-} */
-
 .info h4{
 	font-weight:normal;
 	font-size:15pt;
@@ -383,7 +369,6 @@ progress{
 	font-size:9.3pt;
 	text-overflow:ellipsis;
 	overflow:hidden;
-/* 	line-height:20px; */
 }
   
   .logo{

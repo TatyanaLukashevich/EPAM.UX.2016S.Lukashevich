@@ -357,8 +357,11 @@ progress{
   color: lightgray;
 }
 
+.criteria{
+	margin-right:200px;
+}
+
 .criteria h4{
-/* 	padding-top:30px; */
 	font-family:"Myriad Pro", Arial;
 	margin: 0px 0px 0px 19px;
 	text-align:center;
