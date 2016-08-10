@@ -1,3 +1,4 @@
+@import "mixins.less";
 @base_color: steelblue;
 
 .wrapper{
@@ -16,18 +17,9 @@
 		.col-sm-7 .section{
 		margin: 50px 0 0 0;
 		}
+		
 	}
 }
-
-
-	.base_circle(@radius, @background){
-	width: @radius;
-	height: @radius;
-	border-radius:@radius;
-	background:@background;	
-	border: (@radius/10) solid white;	
-	box-shadow: 0 0 0 1px steelblue;
-	}
 
 	.circle {
 	.base_circle(160px,@base_color);
@@ -53,7 +45,7 @@ h1, h2, h4, h5,h6{
 			font-size:3.3em;
 			font-family: "MyriadPro-Bold", Arial;
 			font-weight: 700;
-			margin-top:0 0;
+			margin:0 0;
 			}
 			
 		h4{
@@ -185,10 +177,12 @@ h1, h2, h4, h5,h6{
 }
 
 
-  ul li{
-    list-style-image: url(content/black_point2.png);
-	margin:0px 0px 0px 20px;
-   }
+  ul{
+	  li{
+		list-style-image: url(content/black_point2.png);
+		margin:0px 0px 0px 20px;
+	   }
+  } 
    .col-lg-7 .section{
 	   margin:0 0 0 0;
    }
@@ -222,11 +216,6 @@ h1, h2, h4, h5,h6{
 		background-repeat:no-repeat;
 		background-position: center;
 	}
-}
-
-.valuenow(@now)
-{
-width:@now;
 }
 
 .half-active{
